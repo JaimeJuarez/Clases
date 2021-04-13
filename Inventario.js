@@ -1,0 +1,5 @@
+var array = new array(4)
+array[0] = document.getElementById('Nombre')
+array[1] = document.getElementById('Precio')
+array[2] = document.getElementById('Cantidad')
+array[3] = document.getElementById('Numero')
