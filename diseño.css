@@ -1,0 +1,4 @@
+.diseño {
+    background: rgb(110, 182, 242);
+    background: linear-gradient(90deg, rgba(110, 182, 242, 1) 0%, rgba(39, 74, 223, 1) 35%, rgba(141, 245, 255, 1) 100%);
+}
