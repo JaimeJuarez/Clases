@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="diseño.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <title>Calculo</title>
+    <title>Index</title>
 </head>
 
 <body>
@@ -17,25 +17,20 @@
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container">
                 <a class="navbar-brand" href="#">Calculo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                </div>
             </div>
         </nav>
     </header>
-    <div class="container home">
-        <div class="col-md-12 col-xs-12 p-5 d-flex">
+    <div class="container-fluid" style="background: rgb(242,110,110);
+    background: linear-gradient(90deg, rgba(242,110,110,1) 0%, rgba(223,122,39,1) 35%, rgba(208,255,141,1) 100%);">
+        <div class="col-md-10 p-5 ms-5 d-flex">
             <div>
-                <h1 class="pb-4">Tema #1</h1>
+                <h1 class="pb-4">Calculo Integral</h1>
                 <h2 class="pb-2">Funciones</h2>
                 <h3>Concepto General</h3>
                 <p>Una función es una relación o correspondencia entre dos magnitudes, de manera que a cada valor de la primera le corresponde un único valor de la segunda (o ninguno), que llamamos imagen o transformado. A la función se le suele designar
                     por f y a la imagen por f(x), siendo x la variable independiente.</p>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide col-md-5" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide col-md-4" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -62,14 +57,32 @@
                 </button>
             </div>
         </div>
-        <div class="container mt-5">
-            <div class="row">
-                <h3> Formas de expresar las funciones</h3>
-                <p>Mediante un enunciado que explique la relación que existe entre las variables. Mediante una expresión analítica, esto es, una ecuación que relacione las variables. Mediante una tabla que contenga los valores de las variables, emparejados.
-                    Mediante una gráfica, representada en unos ejes cartesianos con una escala adecuada. Sobre el eje horizontal (eje de abscisas) representamos la variable independiente x\;, y sobre el eje vertical (eje de ordenadas) la variable dependiente
-                    y\;. Cada punto de la gráfica es generado por una pareja de valores x\; e y\;, que son sus coordenadas (x,y)\;, su abcisa y su ordenada.</p>
-            </div>
-            <div class="table-responsive">
+    </div>
+    <div class="container col-md-12 mt-5">
+        <div class="row pb-5">
+            <h3> Formas de expresar las funciones</h3>
+            <p>Mediante un enunciado que explique la relación que existe entre las variables. Mediante una expresión analítica, esto es, una ecuación que relacione las variables. Mediante una tabla que contenga los valores de las variables, emparejados.
+                Mediante una gráfica, representada en unos ejes cartesianos con una escala adecuada. Sobre el eje horizontal (eje de abscisas) representamos la variable independiente x\;, y sobre el eje vertical (eje de ordenadas) la variable dependiente
+                y\;. Cada punto de la gráfica es generado por una pareja de valores x\; e y\;, que son sus coordenadas (x,y)\;, su abcisa y su ordenada.</p>
+        </div>
+    </div>
+    <div class="container col-md-12 pb-5">
+        <div class="row">
+            <h3>
+                Formas de representar las funciones en matemáticas
+            </h3>
+            <p>A pesar de que existan diferentes formas de representar funciones matemáticas, debemos tener en cuenta que si hablamos de la misma función, no se alterará por mucho que cambie la forma en que se describa. Representación verbal Las funciones
+                se pueden expresar de forma verbal, de forma que se nos presenta como un texto en el que se expresa un descripción de la función en palabras de forma detallada. Esta forma describe la relación en lenguaje literal de forma muy detallada
+                para que se pueda entender y escribir. Representación numérica Para representar una función de forma numérica precisamos una tabla de valores en las que a cada valor de x, vemos que le corresponde uno de y. A la izquierda solemos encontrar
+                número naturales y en la derecha la proyección del valor que le damos a x, aunque podemos poner cualquier valor que necesitemos.
+
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h3>Tabulación</h3>
+            <div class="table-responsive pb-4">
                 <table class="table align-middle">
                     <tr>
                         <td>Texto</td>
@@ -82,46 +95,222 @@
                             <table>
                                 <tbody>
                                     <tr>
-                                        <td style="border: 1px solid #ffffff;">Peso(kg)</td>
-                                        <td style="border: 1px solid #ffffff;">2</td>
-                                        <td style="border: 1px solid #ffffff;">3</td>
-                                        <td style="border: 1px solid #ffffff;">4</td>
-                                        <td style="border: 1px solid #ffffff;">5</td>
-                                        <td style="border: 1px solid #ffffff;">6</td>
+                                        <td style="border: 1px solid black;"> Peso(kg)</td>
+                                        <td style="border: 1px solid black;">2</td>
+                                        <td style="border: 1px solid black; text-align: center;">3</td>
+                                        <td style="border: 1px solid black;">4</td>
+                                        <td style="border: 1px solid black; text-align: center;">5</td>
+                                        <td style="border: 1px solid black;">6</td>
                                     </tr>
                                     <tr>
-                                        <td style="border: 2px solid #ffffff;">Tiempo (h)</td>
-                                        <td style="border: 2px solid #ffffff;">3</td>
-                                        <td style="border: 2px solid #ffffff;">3,5</td>
-                                        <td style="border: 2px solid #ffffff;">4</td>
-                                        <td style="border: 2px solid #ffffff;">4,5</td>
-                                        <td style="border: 2px solid #ffffff;">5</td>
+                                        <td style="border: 1px solid #000;">Tiempo (h)</td>
+                                        <td style="border: 1px solid #000;">3</td>
+                                        <td style="border: 1px solid #000;">3,5</td>
+                                        <td style="border: 1px solid #000;">4</td>
+                                        <td style="border: 1px solid #000;">4,5</td>
+                                        <td style="border: 1px solid #000;">5</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </td>
                         <td><img src="http://agrega.juntadeandalucia.es/repositorio/21032011/68/es-an_2011032113_9163837/ODE-9cf92864-0da6-34f5-bb15-16a66ab94ec9/u3t1g9.jpg" width="300px" height="200px"></td>
                     </tr>
-                    <tr>
-                        <table>
-                            <tbody>
-                                <td>
-                                    Cuando a María le paran en un control de alcoholemia tiene 90 mg/100ml de alcohol en sangre. Cada hora que pasa este nivel baja 15 mg.
-                                </td>
-                                <td>
-                                </td>
-                            </tbody>
-                        </table>
-                    </tr>
-                    </tbody>
                 </table>
             </div>
         </div>
+    </div>
+    <div class="container col-md-12 pb-4">
+        <div class="row">
+            <h3>Dominio y rango de función</h3>
+            <p>
+                El dominio de una función f ( x ) es el conjunto de todos los valores para los cuales la función está definida, y el rango de la función es el conjunto de todos los valores que f toma. (En gramática, probablemente le llame al dominio el conjunto reemplazo
+                y al rango el conjunto solución. Quizá también estos han sido llamados la entrada y salida de la función.)
+            </p>
+        </div>
+    </div>
+    <div class="container col-md-12">
+        <h2 class="col-md-12 pb-5 pt-4" style="text-align: center;">Tipos de funciones</h2>
+        <div class="d-flex col-md-12">
+            <div class="col-md-6 pb-5" style="margin-right: 4%;">
+                <h3>
+                    Función polinómica
+                </h3>
+                <p>
+                    Una función polinómica f es una función cuya expresión es un polinomio tal como: Expresión de una función polinómica. Dibujo de una función polinómica. El dominio de las funciones polinómicas son todos los números reales. Las funciones polinómicas son
+                    continuas en todo su dominio. Se llama grado de una función polinómica al mayor exponente de sus términos. Por ejemplo, el polinomio de la función del gráfico de arriba es de grado 3. Los diferentes ai (a0, a1, …an), son números reales
+                    llamados coeficientes de un polinomio.
+                </p>
+                <div style="text-align:center;">
+                    <img src="assets/polinomica.jpg" width="100%" style="max-width: 350px;" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Función lineal</h3>
+                <P>
+                    Una función lineal es una función polinómica de grado 1 que pasa por el origen de coordenadas, es decir, por el punto (0,0). Son funciones rectas de la forma: Expresión de una función lineal. Gráfica de una función lineal. También se llaman funciones
+                    de proporcionalidad directa. La constante m es la razón de proporcionalidad. El término independiente n de la función afín es cero.
+                </P>
+                <div style="text-align:center;">
+                    <img src="assets/funcion-lineal.jpg" width="100%" style="max-width: 350px;" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <h3 class="pb-2">Funciones trigonométricas</h3>
+            <p>Las funciones trigonometricas f son aquellas que están asociadas a una razón trigonométrica. Dibujo de las funciones trigonométricas seno, coseno y tangente. Las razones trigonométricas de un ángulo α son las obtenidas entre los tres lados
+                de un triángulo rectángulo. Es decir, las comparaciones por su cociente de sus tres lados a, b y c. Existen seis funciones trigonométricas:
+                <ul class="d-flex col-md-12" style="justify-content: center; flex-wrap: wrap;">
+                    <li type="disc">Seno
+                        <p>El seno de un ángulo α se define como la razón entre el cateto opuesto (a) y la hipotenusa (c). Fórmula del seno Su abreviatura son sen o sin (del latín sinus).</p>
+                    </li>
+                    <img src="assets/Seno.jpg" alt="">
+                    <li type="disc">Coseno
+                        <p>El coseno de un ángulo α se define como la razón entre el cateto contiguo o cateto adyacente (b) y la hipotenusa (c). Fórmula del coseno Su abreviatura es cos (del latín cosinus).</p>
+                    </li>
+                    <img src="assets/coseno.jpg" style="margin-right: 2%;" alt="">
+                </ul>
+                <ul class="d-flex col-md-12" style="justify-content: center; flex-wrap: wrap;">
+                    <li type="disc">tangente
+                        <p>La tangente de un ángulo α es la razón entre el cateto opuesto (a) y el cateto contiguo o cateto adyacente (b). Fórmula de la tangente Su abreviatura son tan o tg.</p>
+                    </li>
+                    <img src="assets/tangente.jpg" style="margin-right: 2%;" alt="">
 
 
+                    <li type="disc">Cotangente
+                        <p>La cotangente es la razón trigonométrica recíproca de la tangente, por lo tanto tan α · cot α=1. La cotangente de un ángulo α de un triángulo rectángulo se define como la razón entre el cateto contiguo o cateto adyacente (b) y
+                            el cateto opuesto (a).</p>
+                    </li>
+                    <div><img src="assets/cotangente.jpg" style="margin-right: 2%;" alt=""> </div>
+                </ul>
+                <ul class="d-flex col-md-12" style="justify-content: center; flex-wrap: wrap;">
+                    <li type="disc">Secante
+                        <p>La secante es la razón trigonométrica recíproca del coseno, es decir sec α · cos α=1. La secante de un ángulo α de un triángulo rectángulo se define como la razón entre la hipotenusa (c) y el cateto contiguo o cateto adyacente
+                            (b).
+                        </p>
+                        <div style="text-align: center;">
+                            <img src="assets/secante.jpg" alt="">
+                        </div>
+                    </li>
+                    <li type="disc">Cosecante
+                        <p>La cosecante es la razón trigonométrica recíproca del seno, es decir csc α · sen α=1. La cosecante del ángulo α de un triángulo rectángulo se define como la razón entre la hipotenusa (c) y el cateto opuesto (a).
+
+                        </p>
+                        <div style="text-align: center;">
+                            <img src="assets/cosecante.jpg" alt="">
+                        </div>
+                    </li>
+                </ul>
+
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3>Función exponencial</h3>
+                <p>Una función exponencial es aquella en que la variable independiente x aparece en el exponente y tiene de base una constante a. Su expresión es: <img src="assets/funcion-exponenciall.jpg" alt=""> <br> <br> Siendo a un real positivo, a >
+                    0, y diferente de 1, a ≠ 1. <br> <br> <img src="assets/funcion-exponencial.jpg" alt=""> <br> <br> La función potencial exponencial es aquella en la que, tanto la base como el exponente son funciones. Dicho de otra manera, la variable
+                    independiente x se encuentra en la base y en el exponente. Su forma genérica es: <img src="assets/funcion-potencial-exponencial.jpg" alt=""> <br> <br> Estas son dos gráficas de la función potencial exponencial. Una, más simple y otro
+                    ejemplo cualquiera: <br> <br> <img src="assets/funcion-potencial-exponencial-grafica.jpg" alt="">
+                </p>
+
+            </div>
+        </div>
+
+        <div class="container col-md-12">
+            <div class="row">
+                <h3>Modelo Matematico</h3>
+                <p>Un modelo matemático es una representación simplificada, a través de ecuaciones, funciones o fórmulas matemáticas, de un fenómeno o de la relación entre dos o más variables. La rama de las matemáticas que se encarga de estudiar las cualidades
+                    y estructura de los modelos es la llamada “teoría de los modelos”.</p>
+                <h2>Elementos básicos de un modelo matemático</h2>
+                <p>Los modelos matemáticos pueden variar en cuanto a su complejidad, pero todos ellos tienen un conjunto de características básicas:
+
+                    <ul>
+                        <li type="disc">Variables:
+                            <p> Son los conceptos u objetos que se busca entender o analizar. Sobre todo con respecto a su relación con otras variables. Así por ejemplo, una variable puede ser el salario de los trabajadores y lo que queremos analizar son
+                                sus principales determinantes (por ejemplo: años de estudio, educación de los padres, lugar de nacimientos, etc.).</p>
+                        </li>
+                        <li type="disc">
+                            Parámetros:
+                            <p> Se trata de valores conocidos o controlables del modelo.</p>
+                        </li>
+                        <li type="disc">Restricciones
+                            <p>
+                                Son determinados límites que nos indican que los resultados del análisis son razonables. Así por ejemplo, si una de las variables es el número de hijos de una familia, una restricción natural es que este valor no puede ser negativo.
+                            </p>
+                        </li>
+                        <li type="disc">
+                            Relaciones entre las variables:
+                            <p>
+                                El modelo establece una determinada relación entre las variables apoyándose en teorías económicas, físicas, químicas, etc.
+                            </p>
+                        </li>
+                        <li>Representaciones simplificadas:
+                            <p>
+                                Una de las características esenciales de un modelo matemáticos es la representación de las relaciones entre las variables estudiadas a través de elementos de las matemáticas tales como: funciones, ecuaciones, fórmulas, etc.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="container d-flex col-md-12">
+            <div class="row">
+                <h2>Derivadas</h2>
+                <h3>¿Como surgio?</h3>
+                <p>A finales del siglo XVII se sintetizaron en dos conceptos los algoritmos usados por sus predecesores, en lo que hoy llamamos «derivada» e «integral». La historia de la matemática reconoce que Isaac Newton y Gottfried Leibniz son los creadores
+                    del cálculo diferencial e integral. Ellos desarrollaron reglas para manipular las derivadas (reglas de derivación) e Isaac Barrow demostró que la derivación y la integración son operaciones inversas.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Recta_tangente_y_derivada.svg" width="100%" style="max-width: 270px;" alt=""></div>
+        </div>
+        <div class="container col-md-12 pt-2">
+            <div class="row">
+
+                <h3>Concepto</h3>
+                <p>En cálculo diferencial y análisis matemático, la derivada de una función es la razón de cambio instantánea con la que varía el valor de dicha función matemática, según se modifique el valor de su variable independiente. La derivada de
+                    una función es un concepto local, es decir, se calcula como el límite de la rapidez de cambio media de la función en cierto intervalo, cuando el intervalo considerado para la variable independiente se torna cada vez más pequeño. Por
+                    eso se habla del valor de la derivada de una función en un punto dado.</p>
+
+            </div>
+        </div>
+        <div class="container pt-5">
+            <div class="row">
+                <h2>Reglas de la derivacion</h2>
+                <p>En cálculo (rama de las matemáticas), la derivada representa cómo una función cambia a medida que su entrada cambia.En términos poco rigurosos, una derivada puede ser vista como cuánto está cambiando el valor de una cantidad en un punto
+                    dado.
+                </p>
+                <ul>
+                    <li type="disc">1.Para una constante ''a'':
+                        <p>
+                            ·Si f(x)=a, su derivada es f '(x)=0 <br> <br> Ejemplo: → Si f(x)=16, su derivada es f '(x)=0
+                        </p>
+                    </li>
+                    <li type="disc">2. Para la función identidad f(x)= x.
+                        <p>
+                            ·Si f(x)= x, su derivada es f '(x)= 1. <br><br> Ejemplo: →Si f(x)= x,su derivada es f '(x) =1
+                        </p>
+                    </li>
+                    <li type="disc">3.Para una constante ''a'' por una variable ''x'':
+                        <p>
+                            ·Si f(x)=ax, su derivada es f '(x)=a <br> <br> Ejemplo: →Si f(x)= 7x, su derivada es f '(x)= 7
+                        </p>
+                    </li>
+                    <li type="disc">4.Para una varibale ''x'' elevada a una potencia ''n'':
+                        <p>
+                            ·Si f(x)=xⁿ, su derivada es f '(x)= nxⁿˉ¹ <br> <br> Ejemplo: →Si f(x)= x², su derivada es f '(x)= 2x
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div style="position:fixed; right:10px; bottom:10px; text-align:center; padding:3px">
+
+                <img src="https://i.giphy.com/media/l2QZQ53G4vWK9DFYY/giphy.gif" width="150" height="150"></a>
+            </div>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 </body>
 
 </html>
-</div>

@@ -1,4 +1,45 @@
+@font-face {
+    font-family: "letras";
+    src: url(assets/Staatliches-Regular.ttf);
+}
+
 .diseño {
     background: rgb(110, 182, 242);
     background: linear-gradient(90deg, rgba(110, 182, 242, 1) 0%, rgba(39, 74, 223, 1) 35%, rgba(141, 245, 255, 1) 100%);
+}
+
+.title-fun {
+    text-align: center;
+}
+
+h3 {
+    padding-bottom: 3%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "letras";
+}
+
+.home {
+    background: rgb(242, 110, 110);
+    background: linear-gradient(90deg, rgba(242, 110, 110, 1) 0%, rgba(223, 122, 39, 1) 35%, rgba(208, 255, 141, 1) 100%);
+}
+
+.conteiner {
+    background-color: gray;
+}
+
+a {
+    font-family: "letras";
+}
+
+.spiderman {
+    width: 150px;
+    height: 100px;
+}
+
+.gif {
+    position: relative;
 }
